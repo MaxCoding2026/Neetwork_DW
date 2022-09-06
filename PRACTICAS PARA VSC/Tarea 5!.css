@@ -1,0 +1,16 @@
+div.recuadro div:nth-child(odd) div:nth-child(odd)
+{
+background-color: peru;
+}
+div.recuadro div:nth-child(odd) div:nth-child(even)
+{
+background-color: black;
+}
+div#tablero div:nth-child(even) div:nth-child(even)
+{
+background-color: peru;
+}
+div.recuadro div:nth-child(even) div:nth-child(odd)
+{
+background-color: black;
+}

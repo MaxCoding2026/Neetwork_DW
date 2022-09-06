@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Se vera utilizar la Etiqueta <Input> Et <Form>  Et <Label> y a escribir Validaciones simples-->
+        <!--placeholder se usa para dar una pista de lo que puede introducir en el control-->
+    <input type="text" placeholder="Andres">
+    <input type="color">
+    <input type="date">
+    <input type="email" placeholder="andres@212.com">
+    <input type="file">
+
+    <!--Etiquetas de Formulario <Form> Primera forma-->
+    <!--Aca no hay ningun tipo de validacion si ingresar caulquier usuario y contraseña en el formulario te va a mandar a la Pag de Wikipedia-->
+        <h2>Primera forma de Hacer el formulario</h2>
+        <h1>Iniciar Sesion</h1>
+    <form action="https://wikipedia.org">
+        <label> Usuario:
+            <input type="text" placeholder="Andres">
+        </label>
+        <label>Contraseña:
+            <input type="password"><!-- es la cajita donde se introduce la contraseña-->
+            <input type="submit"><!--es la cajita enviar-->
+
+    <!--Etiquetas de Formulario <Form> Segunda forma Usando Et <Lable> <for> y <Id>-->
+    <!-- for y id deben tener el mismo nombre para estar conectados-->
+    
+    <h2>Segunda forma de hacer el formulario</h2>
+    <h1>Iniciar Sesion</h1>
+    <form action="https://wikipedia.org" target="_blank">
+        <label for="usuario">Usuario:</label>
+            <input id="usuario" type="text" placeholder="Andres">
+
+        <label for="clave">Contraseña:</label>
+            <input id="clave" type="password">
+            <input type="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer Fromulario</title>
+</head>
+<body>
+    <p><strong>Registro</strong></p>
+    <form >
+        <label for="nombre">Primer Nombre:</label>
+        <input id="nombre" type="text" placeholder="Maxmiliano" required>
+        <label for="apellido">Apellido:</label>
+        <input id="apellido" type="text" placeholder="Rodriguez" required>
+    <br><br>    
+
+        <label for="opcion Genero-1">Hombre</label>
+        <input type="radio" id="opcion Genero-1" value= opcion1 name="Genero">
+        <label for="opcion Genero-2">Mujer</label>
+        <input type="radio" id="opcion Genero-2" value= opcion2 name="Genero">
+        <label for="opcion Genero-3">Otro</label>
+        <input type="radio" id="opcion Genero-3" value= opcion3 name="Genero">
+        
+        <br><br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name=email placeholder="max@gmail.com"  required>
+
+        <label for="clave">Contraseña:</label>
+        <input id="clave" type="password" pattern=".{6,12}" title="tu contraseña debe tener entre 6 y 12 caracteres" required>
+        <br><br>
+        <div>
+            <label for="cumple">Cumpleaños</label>
+            <select name="opcion" id="cumple">
+                <option value="0" selected disabled="">Mes</option>
+                <option value="1">Ene</option>
+                <option value="2">Feb</option>
+                <option value="3">Mar</option>
+             </select>
+             
+            <select name="opcion-dia" id="dia">
+                <option value="0" selected disabled>Dia</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+                   
+            <select name="opcion-año" id="año">
+                    <option value="0" selected disabled>Año</option>
+                    <option value="1">2020</option>
+                    <option value="2">2021</option>
+                    <option value="3">2022</option>
+            </select>
+        </div>
+        <br>
+        <label for="servicio">Acepto las condiciones del serivicio:</label>
+        <input id="servicio" type="checkbox" required>
+     
+        <br><br>
+        <input type="submit">
+        
+
+
+
+
+    </form>
+</body>
+</html>

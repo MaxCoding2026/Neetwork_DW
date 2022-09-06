@@ -1,0 +1,25 @@
+h1 {
+  width: 300px;
+  background-color: blue;
+}
+div {
+  width: 200px;
+  height: 400px;
+}
+#div1 {
+  background-color: pink;
+  border: 10px blueviolet solid;
+  padding: 10px 50px 30px 0;
+}
+#div2 {
+  background-color: pink;
+  border-width: 10px;
+  border-color: blueviolet;
+  border-style: dashed;
+}
+#div3 {
+  background-color: pink;
+  border-width: 10px;
+  border-color: blueviolet;
+  border-style: dotted;
+}

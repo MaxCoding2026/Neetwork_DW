@@ -1,0 +1,15 @@
+footer {
+    color: yellow;
+}
+nav {
+    color: pink;
+}
+ul {
+    color: green;
+}
+li {
+    color: brown;
+}
+a {
+    color: inherit;
+}

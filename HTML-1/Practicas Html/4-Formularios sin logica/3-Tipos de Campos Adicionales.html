@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Campos Adicionales</title>
+</head>
+<body>
+    <p>¿Prefieres manzanas o peras?</p>
+    <form>
+        <label for="manzanas">Manzanas</label>
+        <input type="radio" id="manzanas" name="opcionfruta" value="MANZANAS" required>
+        <label for="peras">Peras</label>
+        <input type="radio" id="peras" name="opcionfruta" value="PERAS" required>
+        <button>Enviar!</button>
+
+        <!--Crear Lista Desplegable-->
+        <p>¿Cual es tu fruta favorita?</p>
+        <select name="frutafav">
+            <option value="Banana">Banana</option>
+            <option value="Kiwi">Kiwi</option>
+            <option value="Fresa">Fresa</option>
+        </select>
+        <p>Informacion Adicional</p>
+        <textarea name="infoadic"    rows="5" cols="20"></textarea>
+
+        <button>Enviar!</button>
+
+    </form>
+</body>
+</html>
