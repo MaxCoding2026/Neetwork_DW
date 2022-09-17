@@ -1,0 +1,15 @@
+section {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+div {
+  background-color: aquamarine;
+  width: 50%;
+  height: 50%;
+}
+h1 {
+  font-size: 40px;
+  background-color: yellow;
+  line-height: 50%;
+}
